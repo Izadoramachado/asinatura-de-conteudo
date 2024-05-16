@@ -5,7 +5,10 @@
     --cor-de-fundo #00030C;;
 }
 
-body {
+body { font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
 background stop-color:var(--cor-de-fundo);
 color:var(--branco-principal);
 }
